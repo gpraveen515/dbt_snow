@@ -1,0 +1,1 @@
+select * from DB_ECOMM.DBT_DEV.EMP
