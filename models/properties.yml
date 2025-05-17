@@ -1,0 +1,9 @@
+#in yours model create properites file yml you will speacify materilized for each and every table(all ways use one properties file)
+models:
+  - name: 'user_3'
+    config:
+      materialized: "table"
+
+
+      
+      
