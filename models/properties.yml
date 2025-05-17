@@ -1,9 +1,18 @@
+
 #in yours model create properites file yml you will speacify materilized for each and every table(all ways use one properties file)
+sources:
+  - name: "praveen" #give any name
+    database: DB_ECOMM
+    schema: dbt_dev
+    tables:
+      - name: user_3
+
+
 models:
   - name: 'user_3'
     config:
       materialized: "table"
 
-
+# never speacify your table name into your model speacify in properties file
       
       

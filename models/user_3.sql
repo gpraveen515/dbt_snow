@@ -1,1 +1,1 @@
-select * from DB_ECOMM.DBT_DEV.EMP
+select * from {{source("praveen","user_3")}}
