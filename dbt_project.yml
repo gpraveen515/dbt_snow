@@ -4,3 +4,4 @@ name: 'my_new_project'
 model-paths: ["models"]
 models:
     materialized: 'table'  #how you want to save table in snowflake 
+seed-paths: ['seeds']
