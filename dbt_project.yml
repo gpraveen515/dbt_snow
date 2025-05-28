@@ -4,4 +4,19 @@ name: 'my_new_project'
 model-paths: ["models"]
 models:
     materialized: 'table'  #how you want to save table in snowflake 
-seed-paths: ['seeds']
+seed-paths: ['seeds'] 
+analysis-paths: ['analyses']
+
+
+#models:
+ # my_dbt_project:  # replace with your actual dbt project name
+    #staging:
+      #customers:
+        #+materialized: view
+
+     # orders:
+       # +materialized: table
+
+      #final_transform:
+        #+materialized: ephemeral  
+

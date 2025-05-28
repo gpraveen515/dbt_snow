@@ -1,0 +1,1 @@
+--we will create this for analysis, it wont impact on snowflake table
