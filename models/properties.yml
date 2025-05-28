@@ -3,7 +3,7 @@
 sources:
   - name: "praveen" #give any name
     database: DB_ECOMM
-    schema: dbt_dev
+    schema: DBT_DEV
     tables:
       - name: user_3
 
